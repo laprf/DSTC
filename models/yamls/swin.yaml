@@ -1,0 +1,17 @@
+img_size: 512
+num_classes: 24
+in_channels: 32
+cluster:
+  fold: 16
+  proposal: 2
+  dim: 96
+vit:
+  hidden_size: 256
+  patch_size: 1
+  depth: 4
+  num_heads: 4
+  dim_head: 64
+  mlp_dim: 1024
+  dropout: 0.1
+  attention_dropout: 0.1
+backbone: 'swin_tiny'
